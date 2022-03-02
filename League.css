@@ -1,0 +1,97 @@
+*/ {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  margin: 0%;
+  background: black;
+}
+h1 {
+  margin: 0%;
+}
+
+div.Bildstart {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.123),
+      rgba(4, 9, 30, 0.123)
+    ),
+    url(league.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+div.Titel {
+  width: 90%;
+  color: #b56e3d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 40px;
+}
+
+div.Titel2 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.rad {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Champions {
+  display: grid;
+  place-items: center;
+  width: 11.1111111111%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.Champions img {
+  width: 100%;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.Champions div {
+  position: absolute;
+  bottom: 5px;
+  font-weight: bolder;
+  text-shadow: 0 0 10px white;
+  z-index: 666;
+  opacity: 0;
+  transition: all 700ms;
+  color: yellow;
+  font-size: xx-large;
+}
+
+.Champions:hover div {
+  opacity: 1;
+}
+
+@media (min-width: 2000px) {
+  .Champions {
+    width: 10%;
+  }
+}
+.Champions:hover {
+}
+.Champions {
+  position: relative;
+  text-align: center;
+  color: rgb(7, 7, 7);
+}
+.aatroxbild {
+  color: white;
+  font-size: xx-large;
+}
+
+.champIco {
+  width: 100%;
+}
