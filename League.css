@@ -17,7 +17,7 @@ div.Bildstart {
       rgba(4, 9, 30, 0.123),
       rgba(4, 9, 30, 0.123)
     ),
-    url(league.png);
+    url("./images/league.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -80,15 +80,12 @@ div.Titel2 {
     width: 10%;
   }
 }
-.Champions:hover {
-}
 .Champions {
   position: relative;
   text-align: center;
   color: rgb(7, 7, 7);
 }
 .aatroxbild {
-  color: white;
   font-size: xx-large;
 }
 
