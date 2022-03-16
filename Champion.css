@@ -80,3 +80,13 @@ body {
 .hero-part h1:hover {
   cursor: pointer;
 }
+
+.dont {
+  text-shadow: 0 0 10px white;
+  background-color: black;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
