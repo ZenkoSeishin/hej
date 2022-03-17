@@ -5,11 +5,13 @@
 
 html {
   background-color: #000;
+  margin: 0;
 }
 
 body {
   opacity: 0;
-  transition: opacity 3s;
+  transition: opacity 7s;
+  width: 100%
 }
 
 .hero-screen {
@@ -74,7 +76,7 @@ body {
 
 .container.visible {
   opacity: 1;
-  max-height: 800px;
+  max-height: 800px  ;
 }
 
 .hero-part h1:hover {
@@ -98,12 +100,11 @@ body {
   text-shadow: 0 0 5px red;
   border: 1px solid white;
   padding: 12px 34px;
-  font-size: 24px;
+  font-size: 30px;
   background: transparent;
   cursor: pointer;
   text-align: center;
-  margin-top: 10%;
-  margin: auto;
+  margin-top: 7%;
   width: 100%;
 }
 .Return a {
